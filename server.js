@@ -1,7 +1,7 @@
 //import modules
 const express = require('express');
-const html = require('routes/htmlRoutes.js');
-const api = require('routes/apiRoutes.js');
+const html = require('./routes/htmlRoutes.js');
+const api = require('./routes/apiRoutes.js');
 
 //initiate 
 const app = express();
