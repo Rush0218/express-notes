@@ -29,7 +29,7 @@ A note application that allows users to create and store notes through Express.j
 
 ## Usage 
 
-When the application is installed, run `npm start` or `node server.js`, then visit [port 3001](http://localhost:3001/) in your browser. Otherwise, the deployed application can be accessed through [Heroku]() . 
+When the application is installed, run `npm start` or `node server.js`, then visit [port 3001](http://localhost:3001/) in your browser. Otherwise, the deployed application can be accessed through [Heroku](https://rushnotesexpress.herokuapp.com/notes) . 
 
 
 ## License
