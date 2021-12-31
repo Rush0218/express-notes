@@ -7,8 +7,17 @@ let notes = require('../db/db.json');
 
 //create route to retrieve data from json file
 router.get('/notes', (req, res) => {
-    let data = notes;
-    res.json(data);
+    res.json(notes);
+});
+
+//create route for note id
+router.get('/notes/:id', (req, res) => {
+    const id = findById(req.params.id, notes);
+    if (id) {
+        res.json(id);
+    } else {
+        res.send(404);
+    }
 });
 
 //create route to post new notes to notes.html
